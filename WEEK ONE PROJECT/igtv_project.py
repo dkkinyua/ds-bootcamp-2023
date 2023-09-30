@@ -10,7 +10,7 @@ def viewership():
     # Dummy data, a representation of actual view counts on Instagram TV
     view_count = [35000, 32000, 27000, 22000, 20000, 37500, 42000, 39000, 34000, 49750]
 
-    # This is the amount of view counts that Instagram considers a successful threshold
+    # This is the amount of view counts that Instagram considers a successful threshold for viewership
     success_view_count = 30000
     
     average_count = sum(view_count) / len(view_count)
@@ -36,9 +36,14 @@ def watch_count():
     else:
          print("The IGTV is not a success judging on the watch time metrics, i.e. watch time and video duration.")
 
-watch_count()
+
 
 # (iii) Retention:
+
+"""
+So as to consider a user retained on Instagram TV, a user should be active for 3 days per week for the next 30 days.
+The 80% successful retention rate per month is the number of users retained in the IGTV app per month based on the above condition.
+"""
 
 def user_retention():
     # Dummy data of users retained by Instagram TV in the last 12 months in percentages
@@ -54,7 +59,7 @@ def user_retention():
         print("The IGTV is not a success judging on the user retention metrics, i.e. users retained by IGTV.")
 
 
-user_retention()
+
 
 
 
