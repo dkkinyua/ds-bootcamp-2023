@@ -9,7 +9,7 @@ We have seen a great improvement in the success of IGTV in terms of the user eng
 
 Here, I would use the User Engagement metric which includes the following:
 	(i) Viewership
-    (ii) Watch time
+    	(ii) Watch time
 	(iii) User Retention
 
 **(i) Viewership:**
@@ -19,7 +19,7 @@ The viewership metric for IGTV measures the total number of times your IGTV vide
 **Formulae for Calculating Viewership Metric:**
 Total View Count (Cumulative):
 The total view count represents the sum of views for all your IGTV videos.
-    **Formula: Total View Count = View Count of Video 1 + View Count of Video 2 + ... + View Count of Video x**
+    > **Formula: Total View Count = View Count of Video 1 + View Count of Video 2 + ... + View Count of Video x**
 
 **(ii) Watch Time:** 
 
@@ -27,7 +27,7 @@ Watch time is an essential metric for evaluating the engagement and retention of
 
 **Formula for Calculating Watch Time Metric:**
 The formula for calculating the watch time metric on IGTV is straightforward. It involves summing up the total duration of time users have spent watching your videos:
-    **Watch Time (in seconds) = Duration of Video 1 (in seconds) + Duration of Video 2 (in seconds) + ... + Duration of Video x (in seconds)**
+    > **Watch Time (in seconds) = Duration of Video 1 (in seconds) + Duration of Video 2 (in seconds) + ... + Duration of Video x (in seconds)**
 
 **(iii) User Retention:**
 
