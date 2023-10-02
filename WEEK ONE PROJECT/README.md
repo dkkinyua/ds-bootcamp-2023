@@ -100,5 +100,5 @@ print(report)
 
 This will provide you with metrics like the accuracy of the model, precision, and F1-score to gauge the performance of your model.
 
-**7. Interpret your results:
+**7. Interpret your results:**
 I interpreted the results and came to the conclusion that IGTV is a success according to the user engagement metric.
