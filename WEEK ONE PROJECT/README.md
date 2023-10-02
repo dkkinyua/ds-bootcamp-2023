@@ -35,13 +35,15 @@ The formula for calculating the watch time metric on IGTV is straightforward. It
 
 User retention, often expressed as a percentage, measures the proportion of viewers who watch a significant portion of your IGTV video content without dropping off. It helps assess the quality of your content and its ability to keep viewers engaged throughout the video's duration.
 
-Let’s say for a successful threshold for User Retention for Instagram TV is 80%, this would act as a benchmark to gauge its success.
+Let’s say that a successful threshold for User Retention for Instagram TV is 80%, this would act as a benchmark to gauge its success.
 
 **Formula for Calculating User Retention Metric:**
 The formula for calculating user retention on IGTV involves determining the percentage of viewers who watched a specific portion of the video (e.g., from the beginning to a specified time point). The formula is as follows:
-   > User Retention (%) = (Number of Viewers at Time T / Total Views) x 100 (expressed as a percentage)
+   > User Retention (%) = (Number of Viewers at Time T / Total Views) x 100 (expressed as a percentage).
+
 
 **Here's the process I would take to solve this question:**
+
 **1. Collect Data:** Gather data related to your IGTV content, such as video duration, content category, post date, and any other relevant features. Also, include the user engagement metric you want to predict, such as user retention.
 
 **2. Data Preprocessing:** Clean and preprocess your dataset. Handle missing values, encode categorical variables, and split the data into training and testing sets
