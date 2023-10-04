@@ -70,7 +70,7 @@ Here's how to load and prepare your dataset:
 
 data = pd.read_csv("MOCK_DATA (2).csv")
 
-X = data.dropna("videos", axis = 1)
+X = data.dropna("ip address", axis = 1)
 y = data["videos"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
