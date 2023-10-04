@@ -1,9 +1,9 @@
 **Question: Imagine you are a Product Data Scientist at Instagram. Explain how you would describe the success of Instagram TV(IGTV).**
 
 **Explanation and Solution**:
-Instagram is one of the most used social media applications today and has more than 100 million users who use Instagram to share posts, create content and send messages.
+Instagram is one of the most used social media applications today and has more than 100 million users who use Instagram to share posts, create content, and send messages.
 
-Instagram TV is an Instagram product where Instagram users can share short videos and create content upto 10 minutes per video
+Instagram TV is an Instagram product where Instagram users can share short videos and create content up to 10 minutes per video
 
 We have seen a great improvement in the success of IGTV in terms of the user engagement metric and have used a xgboost model to gauge its success.
 
@@ -18,13 +18,13 @@ The viewership metric for IGTV measures the total number of times your IGTV vide
 
 **Formulae for Calculating Viewership Metric:**
 Total View Count (Cumulative):
-The total view count represents the sum of views for all your IGTV videos.
+The total view count represents the total views for all your IGTV videos.
 
     > **Formula: Total View Count = View Count of Video 1 + View Count of Video 2 + ... + View Count of Video x**
 
 **(ii) Watch Time:** 
 
-Watch time is an essential metric for evaluating the engagement and retention of your IGTV video content. It quantifies the cumulative amount of time viewers have dedicated to watching your videos. This metric helps you assess the overall impact and effectiveness of your video content strategy.
+Watch time is an essential metric for evaluating the engagement and retention of your IGTV video content. It quantifies the cumulative amount of time viewers have dedicated to watching your videos. This metric helps you assess your video content strategy's overall impact and effectiveness.
 
 **Formula for Calculating Watch Time Metric:**
 The formula for calculating the watch time metric on IGTV is straightforward. It involves summing up the total duration of time users have spent watching your videos:
@@ -40,6 +40,10 @@ Let’s say that a successful threshold for User Retention for Instagram TV is 8
 **Formula for Calculating User Retention Metric:**
 The formula for calculating user retention on IGTV involves determining the percentage of viewers who watched a specific portion of the video (e.g., from the beginning to a specified time point). The formula is as follows:
    > User Retention (%) = (Number of Viewers at Time T / Total Views) x 100 (expressed as a percentage).
+
+**(iv) Increase in followers:**
+
+An increase in followers also shows the success of Instagram TV. If the successful threshold for follower increase is, let's say, 500 for heavy content creators(those who create content daily), this would show the success of Instagram TV
 
 
 **Here's the process I would take to solve this question:**
